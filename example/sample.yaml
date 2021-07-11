@@ -4,7 +4,7 @@ apiVersion: v1
 metadata:
   name: example-annotation
   annotations:
-    awssecretmanager.kubernetes.io/enabled: "true"
+    asm.kubernetes.io/enabled: "true"
 type: Opaque
 data:
   username: <username>
